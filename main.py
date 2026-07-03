@@ -34,7 +34,7 @@ def home():
 def stats(values: str = Query(...)):
     nums = [int(x) for x in values.split(",")]
     return {
-        "email": "your-email@example.com",
+        "email": "24f2004747@ds.study.iitm.ac.in",
         "count": len(nums),
         "sum": sum(nums),
         "min": min(nums),
